@@ -14,9 +14,9 @@ public class LibraryClass {
 	public static WebDriver driver;
 	public static Properties prop;
 	
-	public void LaunchApplication() throws IOException {
+	public  void LaunchApplication() throws IOException {
 		
-		FileInputStream file=new FileInputStream("C:\\Users\\Hp\\eclipse-workspace\\WorkShop_CucumberProject\\src\\test\\resources\\config properties\\config.properties");
+		FileInputStream file=new FileInputStream("C:\\Users\\Hp\\git\\WorkShop_CucumberProject\\WorkShop_CucumberProject\\src\\test\\resources\\config properties\\config.properties");
 		prop=new Properties();
 		prop.load(file);
 		

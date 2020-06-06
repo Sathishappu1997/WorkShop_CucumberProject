@@ -13,10 +13,10 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions
 (
 	
-features = "C:\\Users\\Hp\\eclipse-workspace\\WorkShop_CucumberProject\\src\\test\\resources\\Features\\TestCases.feature",
+features = "C:\\Users\\Hp\\git\\WorkShop_CucumberProject\\WorkShop_CucumberProject\\src\\test\\resources\\Features\\TestCases.feature",
 glue = {"com.StepDefinition"},	        
-plugin = {"pretty", "html:Reports/cucumber-html-report","json:Reports/cucumber-html-report/jsonreport",
-"com.cucumber.listener.ExtentCucumberFormatter:Reports/Extentreport.html"},
+plugin = {"pretty", "html:src/test/resources/Reports/cucumber-html-report","json:src/test/resources/Reports/cucumber-html-report/jsonreport",
+"com.cucumber.listener.ExtentCucumberFormatter:src/test/resources/Reports/Extentreport.html"},
 
     
 		       
