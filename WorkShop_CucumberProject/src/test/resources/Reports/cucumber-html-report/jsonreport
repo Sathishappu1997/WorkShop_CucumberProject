@@ -3,6 +3,7 @@
     "line": 2,
     "elements": [
       {
+        "start_timestamp": "2020-06-08T08:48:12.683Z",
         "line": 14,
         "name": "Validate the login Functionality of OrangeHRM Page",
         "description": "",
@@ -12,31 +13,31 @@
         "steps": [
           {
             "result": {
-              "duration": 10669187600,
+              "duration": 13143000000,
               "status": "passed"
             },
             "line": 5,
             "name": "Open browser and Go to Url",
             "match": {
-              "location": "OrangeHRM_Login_Steps.open_browser_and_Go_to_Url()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.open_browser_and_Go_to_Url()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 58670500,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 6,
             "name": "verify the title",
             "match": {
-              "location": "OrangeHRM_Login_Steps.verify_the_title()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.verify_the_title()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 628703800,
+              "duration": 1391000000,
               "status": "passed"
             },
             "line": 7,
@@ -52,47 +53,43 @@
                   "offset": 23
                 }
               ],
-              "location": "OrangeHRM_Login_Steps.enter_the_and(String,String)"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.enter_the_and(java.lang.String,java.lang.String)"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4253408200,
+              "duration": 4362000000,
               "status": "passed"
             },
             "line": 8,
             "name": "click the submit button",
             "match": {
-              "location": "OrangeHRM_Login_Steps.click_the_submit_button()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.click_the_submit_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 727576800,
+              "duration": 1633000000,
               "status": "passed"
             },
             "line": 9,
             "name": "Close the Browser",
             "match": {
-              "location": "OrangeHRM_Login_Steps.close_the_Browser()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.close_the_Browser()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 1,
             "name": "@OrangeHRM"
           }
         ]
       },
       {
+        "start_timestamp": "2020-06-08T08:48:33.576Z",
         "line": 15,
         "name": "Validate the login Functionality of OrangeHRM Page",
         "description": "",
@@ -102,31 +99,31 @@
         "steps": [
           {
             "result": {
-              "duration": 9348007500,
+              "duration": 10279000000,
               "status": "passed"
             },
             "line": 5,
             "name": "Open browser and Go to Url",
             "match": {
-              "location": "OrangeHRM_Login_Steps.open_browser_and_Go_to_Url()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.open_browser_and_Go_to_Url()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 21893300,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 6,
             "name": "verify the title",
             "match": {
-              "location": "OrangeHRM_Login_Steps.verify_the_title()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.verify_the_title()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 466939700,
+              "duration": 774000000,
               "status": "passed"
             },
             "line": 7,
@@ -142,42 +139,37 @@
                   "offset": 23
                 }
               ],
-              "location": "OrangeHRM_Login_Steps.enter_the_and(String,String)"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.enter_the_and(java.lang.String,java.lang.String)"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 8219215900,
+              "duration": 8663000000,
               "status": "passed"
             },
             "line": 8,
             "name": "click the submit button",
             "match": {
-              "location": "OrangeHRM_Login_Steps.click_the_submit_button()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.click_the_submit_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 761823700,
+              "duration": 1581000000,
               "status": "passed"
             },
             "line": 9,
             "name": "Close the Browser",
             "match": {
-              "location": "OrangeHRM_Login_Steps.close_the_Browser()"
+              "location": "com.StepDefinition.OrangeHRM_Login_Steps.close_the_Browser()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 1,
             "name": "@OrangeHRM"
           }
         ]
@@ -187,11 +179,15 @@
     "description": "",
     "id": "orangehrm-website",
     "keyword": "Feature",
-    "uri": "C:/Users/Hp/git/WorkShop_CucumberProject/WorkShop_CucumberProject/src/test/resources/Features/TestCases.feature",
+    "uri": "file:src/test/resources/Features/TestCases_Config.feature",
     "tags": [
       {
-        "line": 1,
-        "name": "@OrangeHRM"
+        "name": "@OrangeHRM",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
       }
     ]
   }
